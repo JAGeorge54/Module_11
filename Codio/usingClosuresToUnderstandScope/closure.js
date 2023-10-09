@@ -18,15 +18,15 @@ function defineClosure() {
         return {
             "getBookTitle": function () {
                 // your code here to return the bookName
-
+                return bookName;
             },
             "turnPage": function () {
                 // your code here to increment the currentPageNumber
-
+                currentPageNumber++;
             },
             "getPage": function () {
                 //your code here to return the currentPageNumber
-
+                return currentPageNumber;
             }
         };
     }
